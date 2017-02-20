@@ -6,6 +6,8 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "user")
 public class User implements Serializable {
+	
+	//changed file to test commit process
 
    private static final long serialVersionUID = 1L;
    private int id;
